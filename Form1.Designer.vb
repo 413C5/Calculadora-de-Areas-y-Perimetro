@@ -46,7 +46,7 @@ Partial Class frmPrincipal
         Me.cmbFiguras.FormattingEnabled = True
         Me.cmbFiguras.Items.AddRange(New Object() {"Cuadrado", "Rectangulo", "Triangulo", "Rombo", "Pentagono", "Hexagono", "Circulo", "Trapecio", "Paralelogramo"})
         Me.cmbFiguras.Location = New System.Drawing.Point(143, 12)
-        Me.cmbFiguras.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbFiguras.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbFiguras.Name = "cmbFiguras"
         Me.cmbFiguras.Size = New System.Drawing.Size(160, 24)
         Me.cmbFiguras.TabIndex = 0
@@ -54,7 +54,7 @@ Partial Class frmPrincipal
         'picFigura
         '
         Me.picFigura.Location = New System.Drawing.Point(123, 46)
-        Me.picFigura.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.picFigura.Margin = New System.Windows.Forms.Padding(4)
         Me.picFigura.Name = "picFigura"
         Me.picFigura.Size = New System.Drawing.Size(212, 159)
         Me.picFigura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -84,7 +84,7 @@ Partial Class frmPrincipal
         'txtDato1
         '
         Me.txtDato1.Location = New System.Drawing.Point(229, 213)
-        Me.txtDato1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDato1.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato1.Name = "txtDato1"
         Me.txtDato1.Size = New System.Drawing.Size(132, 22)
         Me.txtDato1.TabIndex = 4
@@ -92,7 +92,7 @@ Partial Class frmPrincipal
         'txtDato2
         '
         Me.txtDato2.Location = New System.Drawing.Point(229, 249)
-        Me.txtDato2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDato2.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato2.Name = "txtDato2"
         Me.txtDato2.Size = New System.Drawing.Size(132, 22)
         Me.txtDato2.TabIndex = 5
@@ -110,7 +110,7 @@ Partial Class frmPrincipal
         'txtDato3
         '
         Me.txtDato3.Location = New System.Drawing.Point(229, 289)
-        Me.txtDato3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDato3.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato3.Name = "txtDato3"
         Me.txtDato3.Size = New System.Drawing.Size(132, 22)
         Me.txtDato3.TabIndex = 7
@@ -146,37 +146,37 @@ Partial Class frmPrincipal
         'btnCalcular
         '
         Me.btnCalcular.Location = New System.Drawing.Point(52, 495)
-        Me.btnCalcular.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCalcular.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(100, 28)
         Me.btnCalcular.TabIndex = 10
-        Me.btnCalcular.Text = "Calcular"
+        Me.btnCalcular.Text = "&Calcular"
         Me.btnCalcular.UseVisualStyleBackColor = True
         '
         'btnLimpiar
         '
         Me.btnLimpiar.Location = New System.Drawing.Point(196, 495)
-        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(100, 28)
         Me.btnLimpiar.TabIndex = 11
-        Me.btnLimpiar.Text = "Limpiar"
+        Me.btnLimpiar.Text = "&Limpiar"
         Me.btnLimpiar.UseVisualStyleBackColor = True
         '
         'btnSalir
         '
         Me.btnSalir.Location = New System.Drawing.Point(327, 495)
-        Me.btnSalir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSalir.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(100, 28)
         Me.btnSalir.TabIndex = 12
-        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.Text = "&Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
         'txtDato4
         '
         Me.txtDato4.Location = New System.Drawing.Point(229, 335)
-        Me.txtDato4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtDato4.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato4.Name = "txtDato4"
         Me.txtDato4.Size = New System.Drawing.Size(132, 22)
         Me.txtDato4.TabIndex = 14
@@ -195,6 +195,7 @@ Partial Class frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnSalir
         Me.ClientSize = New System.Drawing.Size(487, 580)
         Me.Controls.Add(Me.txtDato4)
         Me.Controls.Add(Me.labDato4)
@@ -212,7 +213,7 @@ Partial Class frmPrincipal
         Me.Controls.Add(Me.picFigura)
         Me.Controls.Add(Me.cmbFiguras)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "frmPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
