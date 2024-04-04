@@ -67,7 +67,7 @@ Partial Class frmPrincipal
         Me.labDato1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labDato1.Name = "labDato1"
         Me.labDato1.Size = New System.Drawing.Size(120, 25)
-        Me.labDato1.TabIndex = 2
+        Me.labDato1.TabIndex = 1
         Me.labDato1.Text = "Label1"
         Me.labDato1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -87,7 +87,7 @@ Partial Class frmPrincipal
         Me.txtDato1.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato1.Name = "txtDato1"
         Me.txtDato1.Size = New System.Drawing.Size(132, 22)
-        Me.txtDato1.TabIndex = 4
+        Me.txtDato1.TabIndex = 2
         '
         'txtDato2
         '
@@ -95,7 +95,7 @@ Partial Class frmPrincipal
         Me.txtDato2.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato2.Name = "txtDato2"
         Me.txtDato2.Size = New System.Drawing.Size(132, 22)
-        Me.txtDato2.TabIndex = 5
+        Me.txtDato2.TabIndex = 4
         '
         'labDato3
         '
@@ -103,7 +103,7 @@ Partial Class frmPrincipal
         Me.labDato3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labDato3.Name = "labDato3"
         Me.labDato3.Size = New System.Drawing.Size(120, 25)
-        Me.labDato3.TabIndex = 6
+        Me.labDato3.TabIndex = 5
         Me.labDato3.Text = "Label3"
         Me.labDato3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -113,7 +113,7 @@ Partial Class frmPrincipal
         Me.txtDato3.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato3.Name = "txtDato3"
         Me.txtDato3.Size = New System.Drawing.Size(132, 22)
-        Me.txtDato3.TabIndex = 7
+        Me.txtDato3.TabIndex = 6
         '
         'labPerimetro
         '
@@ -125,7 +125,7 @@ Partial Class frmPrincipal
         Me.labPerimetro.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labPerimetro.Name = "labPerimetro"
         Me.labPerimetro.Size = New System.Drawing.Size(427, 45)
-        Me.labPerimetro.TabIndex = 8
+        Me.labPerimetro.TabIndex = 9
         Me.labPerimetro.Text = "Label5"
         Me.labPerimetro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -139,7 +139,7 @@ Partial Class frmPrincipal
         Me.labArea.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labArea.Name = "labArea"
         Me.labArea.Size = New System.Drawing.Size(427, 45)
-        Me.labArea.TabIndex = 9
+        Me.labArea.TabIndex = 10
         Me.labArea.Text = "Label6"
         Me.labArea.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -149,7 +149,7 @@ Partial Class frmPrincipal
         Me.btnCalcular.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(100, 28)
-        Me.btnCalcular.TabIndex = 10
+        Me.btnCalcular.TabIndex = 11
         Me.btnCalcular.Text = "&Calcular"
         Me.btnCalcular.UseVisualStyleBackColor = True
         '
@@ -159,17 +159,18 @@ Partial Class frmPrincipal
         Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(100, 28)
-        Me.btnLimpiar.TabIndex = 11
+        Me.btnLimpiar.TabIndex = 12
         Me.btnLimpiar.Text = "&Limpiar"
         Me.btnLimpiar.UseVisualStyleBackColor = True
         '
         'btnSalir
         '
+        Me.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnSalir.Location = New System.Drawing.Point(327, 495)
         Me.btnSalir.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(100, 28)
-        Me.btnSalir.TabIndex = 12
+        Me.btnSalir.TabIndex = 13
         Me.btnSalir.Text = "&Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
@@ -179,7 +180,7 @@ Partial Class frmPrincipal
         Me.txtDato4.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDato4.Name = "txtDato4"
         Me.txtDato4.Size = New System.Drawing.Size(132, 22)
-        Me.txtDato4.TabIndex = 14
+        Me.txtDato4.TabIndex = 8
         '
         'labDato4
         '
@@ -187,7 +188,7 @@ Partial Class frmPrincipal
         Me.labDato4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labDato4.Name = "labDato4"
         Me.labDato4.Size = New System.Drawing.Size(120, 25)
-        Me.labDato4.TabIndex = 13
+        Me.labDato4.TabIndex = 7
         Me.labDato4.Text = "Label4"
         Me.labDato4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
